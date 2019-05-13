@@ -6,16 +6,17 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/asticode/go-astilog"
-	"github.com/pkg/errors"
-	"time"
 	"os"
+	"time"
+
+	"github.com/molotovtv/go-astilog"
+	"github.com/pkg/errors"
 )
 
 // FFMpeg represents an entity capable of running an FFMpeg binary
 // https://ffmpeg.org/ffmpeg.html
 type FFMpeg struct {
-	binaryPath string
+	binaryPath   string
 	stdErrParser StdErrParser
 }
 

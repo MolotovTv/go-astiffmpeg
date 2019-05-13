@@ -8,7 +8,7 @@ import (
 
 	"strings"
 
-	"github.com/asticode/go-astitools/ptr"
+	"github.com/molotovtv/go-astitools/ptr"
 )
 
 // StdErrParser represents an object capable of parsing stderr
